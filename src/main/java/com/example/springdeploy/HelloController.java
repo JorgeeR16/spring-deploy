@@ -14,7 +14,7 @@ public class HelloController {
     @GetMapping({ "/", "/holamundo" })
     public String holaMundo() {
         System.out.println(message);
-        return "Hola Mundo!!";
+        return "Hola Mundo Jaja!!";
     }
 
     @GetMapping("/bootstrap")
